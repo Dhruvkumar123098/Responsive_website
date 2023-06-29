@@ -1,0 +1,254 @@
+* {
+  margin: 0.1px;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+html{
+scroll-behavior: smooth;
+}
+nav img{
+  height: 75px;
+  margin: 0.3px 8px;
+  opacity: 0.89;
+}
+nav {
+  display: flex;
+align-items: center;
+position: relative;
+top: 0;
+left: 0;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0.1px;
+  padding: 0;
+  width: 100%;
+  overflow: hidden;
+  background-color:grey;
+  opacity: 0.7;
+  
+  
+}
+
+li {
+  float: centre;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition:width 2s;
+  margin: 0.1px;
+  
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    width: 200px;
+  background-color:grey;
+
+}
+#home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3px 200px;
+  height: 620px;
+  flex-direction: column;
+}
+#home::before{
+  content: "";
+  position: absolute;
+  background: url(bg.jpg) no-repeat center center/cover;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+
+}
+.h-primary{
+  font-size: 50px;
+  padding: 64px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+
+}
+.h-secondary{
+  font-size: 20px;
+  padding: 12px;
+  color: white;
+  margin-bottom: 20px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+#home p{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-family: 'Poppins', sans-serif; 
+}
+.btn{
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 13px 30px;
+  margin-top: 30px;
+  border-radius: 30px;
+  
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 0 10px #000;
+  cursor: pointer;
+}
+.centre{
+  text-align: center;
+}
+#services{
+  margin: 50px;
+  display: flex;
+}
+#services .box {
+  border: 2px solid #333;
+  padding: 100px;
+  margin: 10px;
+  text-align: center;
+  flex: 1;
+  background-color: #fff;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.5s;
+  border-radius: 10px;
+  background: url(food\ 5.jpg) no-repeat center center/cover;
+}
+#services .box img{
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#services .box p {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+  font-family: 'bee sherif',serif;
+  font-weight: 700;
+  font: 700 ;
+}
+#services .box:hover{
+  transform: scale(1.1);
+}
+#client-section{
+  background: url(bg1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 100px 0;
+  height: 54%;
+
+
+}
+#clients img {
+  height: 124px;
+  width: 135px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+#clients{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.client-item{
+  padding: 90px;
+  flex: 1;
+}
+#contact {
+  background-image: url("contact.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.contact {
+  background-image: url("contact.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px 0;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+form {
+  display: grid;
+  grid-gap: 20px;
+}
+
+label, input, textarea {
+  display: block;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+.footer{
+background-color: #333;
+color: #fff;
+text-align: center;
+padding: 10px;
+margin-top: 20px;
+}
